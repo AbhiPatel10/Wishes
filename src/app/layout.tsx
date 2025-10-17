@@ -24,7 +24,7 @@ export default function RootLayout({
         {children}
         <Toaster />
 
-        {/* <Script id="adsterra-init" strategy="afterInteractive">
+        <Script id="adsterra-init" strategy="afterInteractive">
           {`
             atOptions = {
               'key' : 'bc2b9479f7c561393d95b08d19c432a7',
@@ -38,7 +38,7 @@ export default function RootLayout({
         <Script
           src="//www.highperformanceformat.com/bc2b9479f7c561393d95b08d19c432a7/invoke.js"
           strategy="afterInteractive"
-        /> */}
+        />
       </body>
     </html>
   );
